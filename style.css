@@ -7,7 +7,7 @@
 body {
     font-family: "Heebo", sans-serif;
 }
-.nav1 {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 5rem;
@@ -69,6 +69,13 @@ h3 {
     top: 50%;
     font-size: 1.5rem;
     transform: translate(-50%, -50%) scale(6);
+}
+.logo2 {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    font-size: 0.8rem;
+    transform: translate(-50%, -35%) scale(6);
 }
 
 .first-page {
